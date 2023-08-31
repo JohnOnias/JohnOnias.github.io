@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet"  media="(max-width: 100vw)" href="media-register.css">
+</head>
+<body>
+   
+
+<div id="centro">
+  
+    <div id="div_tela">
+
+    <div id="form_control">
+    
+                <form action="" id="form_control">
+    
+    
+                    <div class="form_edit">
+                        <label for="iname">
+                            <p>NAME:</p>
+                        </label>
+                        <input type="text" id="iname" class="input_control" required>
+                    </div>
+                    <div class="form_edit">
+                        <label for="liname">
+                            <p>LAST NAME:</p>
+                        </label>
+                        <input type="text" id="liname" class="input_control" required>
+                    </div>
+    
+    
+                    <div class="form_edit">
+                        <label for="imail">
+                            <p>EMAIL:</p>
+                        </label>
+                        <input type="text" id="imail" class="input_control"  required>     <br>
+                    </div>
+    
+    
+    
+                    <div class="form_edit">
+                        <label for="password">
+                            <p>PASSWORD:</p>
+                        </label>
+                        <input type="password" id="password" class="input_control" minlength="8" maxlength="16" required> <br>
+                    </div>
+    
+    
+                    <div class="form_edit">
+                        <label for="iddate">
+                            <p>BIRTHDAY</p>
+                        </label>
+                        <input type="date" name="birth" id="iddate" class="input_control" required>
+                    </div>
+    
+    
+                    <div class="form_edit">
+                        <label for="iselect" >
+                            <p class="p-move">GENDER</p>
+                        </label>
+                      <select name="select" id="iselect" class="input_control" required>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                      </select>
+                    </div>
+    
+    
+    
+                    <div id="div_termos">
+                        <input type="checkbox" name="termos" id="idtermos" readonly !important>
+                        <label for="idtermos">
+                              <p>I agree the <a href="#">terms</a> and conditions!</p>
+                        </label>
+                    </div>
+                    <div id="formdiv">
+    
+                        <form action="">
+                            <input type="submit" value="SEND" id="bntsend">
+                        </form>
+                    </div>
+    
+    
+                </form>
+    
+    </div>
+    
+    
+    
+    <div id="footer">
+    
+    
+            <p >ALREDY REGISTERED?</p>
+    
+            <a href="index.html"><strong>LOGIN HERE</strong></a>
+    
+    </div>
+    
+    </div>
+    
+</div>
+    </body>
+</div>
+</html>
